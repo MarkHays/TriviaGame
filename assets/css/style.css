@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/backgroundImage.jpg');
+    color: white;
+
+}
+#wrapper {
+    text-align: center;
+    width: 960px;
+    height: 59px;
+    background-color: #00000080;
+}
+#subwrapper {
+    text-align: center;
+    width: 960px;
+    height: 1000px;
+    background-color: #00000080;
+}
+#start {
+    background-color: rgb(3, 17, 100);
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#answer-button {
+    background-color: rgb(3, 17, 100);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button {
+    background-color: rgb(3, 17, 100);
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
