@@ -6,24 +6,25 @@ body {
 #wrapper {
     text-align: center;
     width: 960px;
-    height: 59px;
-    background-color: #00000080;
+    height: 146px;
+    background-color: #38004e5d;
 }
 #subwrapper {
     text-align: center;
     width: 960px;
     height: 1000px;
-    background-color: #00000080;
+    background-color: #38004e5d;
 }
 #start {
     background-color: rgb(3, 17, 100);
-    border: solid;
+    border: dashed;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 230px;
 }
 #answer-button {
     background-color: rgb(3, 17, 100);
@@ -44,4 +45,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+h1 {
+    font-size: 80px;
+    color: rgb(0, 245, 0);
+}
+
+#counter {
+    color: red;
+}
+h2 {
+    color: rgb(0, 78, 245);
 }
