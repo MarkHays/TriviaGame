@@ -71,9 +71,6 @@ var game = {
         timer = setInterval(game.countdown, 1000);
         $('#subwrapper').html("<h2>TIME LEFT <span id='counter'>30</span> Seconds</h2>");
         $('#subwrapper').append('<h2>' + questions[game.currentQuestion].question + '</h2>');
-        question
-        debugger;
-        //$('#subwrapper').append('<img src="' +  + '">);
         for (var i = 0; i < questions[game.currentQuestion].answers.length; i++) {
             $('#subwrapper').append('<button class="answer-button" id="button-' + i + '" data-name="' + questions[game.currentQuestion].answers[i] + '">' + questions[game.currentQuestion].answers[i] + '</button>');
         }
